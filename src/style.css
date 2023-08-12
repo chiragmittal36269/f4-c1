@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Montserrat", sans-serif;
+	text-align: center;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.calculator {
+	width: 300px;
+	height: 450px;
+	border-radius: 30px;
+	background: #fff;
+	box-shadow: -30px 20px 100px 10px rgba(251, 24, 78, 0.47);
+	display: flex;
+	justify-content: center;
+}
+
+.calculator-inner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+	width: 80%;
+	padding: 20px;
+}
+
+.calculator-inner h2 {
+	color: #2b2b2b;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-bottom: 15px;
+}
+
+.calculator-inner input {
+	width: 100%;
+	height: 40px;
+	color: #2b2b2b;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.calculator-inner .btns {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.calculator-inner button {
+	width: 40px;
+	height: 40px;
+	font-size: 22px;
+	text-align: center;
+	background: #2b2b2b;
+
+	color: #fff;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.calculator-inner .error {
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.calculator-inner .msg {
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #2b2b2b;
+	margin-top: 15px;
+}
+
+.calculator-inner .result {
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #2b2b2b;
+	margin-top: 15px;
+}
